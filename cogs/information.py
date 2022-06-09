@@ -12,7 +12,7 @@ class Information(commands.Cog):
         options=[
             Option(
                 name="member",
-                description="Участник о котором будет выдана информация",
+                description="Участник который будет кикнут",
                 type=OptionType.user,
                 required=False
             )
