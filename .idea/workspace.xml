@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="62e05a05-8dbd-4995-b655-8208dd8dce71" name="Default Changelist" comment="fix conflicts" />
+=======
+    <list default="true" id="05895a14-f258-4c64-8c17-1dbdaae727b3" name="Changes" comment="" />
+>>>>>>> origin/Day_3
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +56,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2A25CTFeD3a3FfP5HRkSjqTZdEx" />
+  <component name="ProjectId" id="2A7fVqJyxLmEIF14iaYZASLPFdF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,22 +64,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MarathonDay3" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MarathonDay1" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\avshe\Desktop\Projects\MarathonDay2" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\avshe\Desktop\Projects\MarathonDay2" />
-      <recent name="C:\Users\avshe\Desktop\Projects\MarathonDay2\cogs" />
-      <recent name="C:\Users\avshe\Desktop\Projects\MarathonDay2\tools" />
+      <recent name="C:\Users\avshe\Desktop\Projects\MarathonDay3" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+<<<<<<< HEAD
       <module name="MarathonDiscord" />
+=======
+      <module name="MarathonDay3" />
+>>>>>>> origin/Day_3
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -100,11 +103,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d3565523-72cc-49a5-99a4-333d859a674d" name="Changes" comment="" />
-      <created>1654194712183</created>
+      <changelist id="05895a14-f258-4c64-8c17-1dbdaae727b3" name="Changes" comment="" />
+      <created>1654365571408</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1654194712183</updated>
+      <updated>1654365571408</updated>
     </task>
     <servers />
   </component>

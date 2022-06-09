@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/MarathonDiscord.iml" filepath="$PROJECT_DIR$/.idea/MarathonDiscord.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/MarathonDay3.iml" filepath="$PROJECT_DIR$/.idea/MarathonDay3.iml" />
+>>>>>>> origin/Day_3
     </modules>
   </component>
 </project>

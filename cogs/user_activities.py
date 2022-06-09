@@ -1,5 +1,5 @@
 from disnake.ext import commands
-from disnake import Member, Role, Option, OptionType, Embed, RawReactionActionEvent, Message
+from disnake import Member, Role, Option, OptionType, Embed, RawReactionActionEvent
 
 
 class UserActivities(commands.Cog):
@@ -96,7 +96,7 @@ class UserActivities(commands.Cog):
 
         await member.edit(nick=new_nick)
 
-        await inter.send("НИК успешно изменен!", ephemeral=True)
+        await inter.send("НИК успещно изменен!", ephemeral=True)
 
     @commands.Cog.listener()
     async def on_raw_reaction_add(self, payload: RawReactionActionEvent):
@@ -113,18 +113,6 @@ class UserActivities(commands.Cog):
         print(f'Пользователь: {payload.user_id}')
         print(f'Реакция: {payload.emoji}')
         print(f'Сообщение: {payload.channel_id}')
-
-    @commands.Cog.listener()
-    async def on_member_join(self, member: Member):
-        print(f'Учаcтник: {member} вошел на сервер {member.guild}')
-
-    @commands.Cog.listener()
-    async def on_member_remove(self, member: Member):
-        print(f'Учаcтник: {member} вышел с сервера {member.guild}')
-
-    @commands.Cog.listener()
-    async def on_message(self, message: Message):
-        print(f'Сообщение {message.content} от {message.author} на сервере {message.guild} в канале {message.channel}')
 
 
 def setup(bot):
