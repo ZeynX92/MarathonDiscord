@@ -12,13 +12,6 @@ else:
 
 @bot.event
 async def on_ready():
-    """
-    |-ая ступень: сообщение о запуске
-    print("Готов к Труду и Обороне!")
-    """
-
-    # ||-ая ступень: загрузчик когов
-
     print(f"Загружаю коги...")
     print("---------------")
 
@@ -31,34 +24,32 @@ async def on_ready():
     print("Загрузил все коги!")
 
 
-# |-ая ступень: префиксная команда эхо
 @bot.command()
-async def echo(ctx, *, echo_value):
-    if ctx.author.id in config.devs:
-        await ctx.send(echo_value)
+async def echo(inter, *, echo_value):
+    if inter.author.id in config.devs:
+        await inter.send(echo_value)
 
 
-# ||-ая ступень: команды для работы с когами
 @bot.command()
-async def load(ctx, extension):
-    if ctx.author.id in config.devs:
+async def load(inter, extension):
+    if inter.author.id in config.devs:
         bot.load_extension(f"cogs.{extension}")
-        await ctx.send("Загружаю ког...")
+        await inter.send("Загружаю ког...")
 
 
 @bot.command()
-async def unload(ctx, extension):
-    if ctx.author.id in config.devs:
+async def unload(inter, extension):
+    if inter.author.id in config.devs:
         bot.unload_extension(f"cogs.{extension}")
-        await ctx.send("Выгружаю ког...")
+        await inter.send("Выгружаю ког...")
 
 
 @bot.command()
-async def reload(ctx, extension):
-    if ctx.author.id in config.devs:
+async def reload(inter, extension):
+    if inter.author.id in config.devs:
         bot.unload_extension(f"cogs.{extension}")
         bot.load_extension(f"cogs.{extension}")
-        await ctx.send("Перезагружаю ког...")
+        await inter.send("Перезагружаю ког...")
 
 
 bot.run(config.token)
